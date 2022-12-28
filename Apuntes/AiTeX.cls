@@ -91,6 +91,7 @@
 \usepackage[parfill]{parskip}
 \usepackage{tabularx}
 \usepackage{multirow}
+\usepackage{epigraph}
 
 %----------------------------------------------------------
 % New commands

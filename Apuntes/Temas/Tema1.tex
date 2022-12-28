@@ -47,3 +47,92 @@ El Código Civil en su art. 1.1 señala como fuentes del Derecho:
 
 Estas fuentes de derecho tienen una jerarquía, lo que hace que una disposición no carezca de valor si contradice a una de rango superior. Ley $>$ costumbre $>$ \gls{pgd}.
 La legislación refleja una serie de valores (Derechos, protección) y una serie de conflictos (delitos, sanción, penas).
+\section{Cuestiones éticas relacionadas con el diseño de aplicaciones informáticas}
+Tanto el diseño como el software son políticos, ya que podemos considerar que ``Los algoritmos son opiniones incrustadas en código''.
+
+El diseño de un software no es neutro, ya que se tienen que considerar distintos puntos al hacer el programa:
+\begin{itemize}
+    \item Qué función o funciones realiza.
+    \item Qué restricciones ponemos al usuario y cuales no.
+    \item Qué datos vamos a recolectar y/o analizar.
+    \item Qué podemos deducir sobre los usuarios.
+    \item Qué mecanismos se van a utilizar para crear o no adicción entre los usuarios.
+\end{itemize}
+
+Un ejemplo de software político puede ser BOSCO, una aplicación financiada por el Gobierno Español utilizada por las compañías eléctricas para decidir quién tiene derecho a un descuento en la factura de la luz.
+
+Otro ejemplo sería el sistema VeriPol utilizado por la Policía Nacional para detectar denuncias falsas.
+
+\subsection{Manipulación online}
+Algunos de los casos más conocidos son: Facebook con su publicidad dirigida a dolescentes estresados y deprimidos, Uber con estrategias para conseguir que sus conductores trabajen más horas o en determinadas zonas y Cambrige Analytica y sus mensajes políticos personalizados basados en perfiles de Facebook.
+
+Dentro de la manipulación online podemos ver varios tipos:
+\begin{itemize}
+    \item\textbf{Persuasión (influencia):} cualquier forma de influencia e influencia a través de la discusión racional.
+    \item\textbf{Persuasión en sentido explicito:} es visible, consciente y resistible (hay alternativas).
+    \item\textbf{Manipulación:} es oculta, inconsiente y explota vulnerabilidades cognitivasm emocionales y estructurales o individuales. La víctima no es cosciente de que ha sido dirigida a una decisión determinada. Hay un beneficio para la parte manipuladora.
+    \item\textbf{Manipulación + \gls{tic}:} hay grandes cantidades de información personal y alforitmos que analizan estos datos que son invisibles y omnipresentes. Generan campañas individualizadas con anuncios y mensajes a medida.
+\end{itemize}
+
+Estas acciones pueden producir daños materiales como gastar dinero en cosas que no necesitamos o gastar más de lo que queríamos o daños en cuanto a violación de la autonomía, con impacto individual y/o social y político.
+
+Al estudiar un programa tenemos que hacernos las siguientes preguntas:
+\begin{itemize}
+    \item Quién decide qué y cómo se diseñan.
+    \item Si tiene  mayor o menor potencial manipulador.
+    \item Si está diseñada para ser adictiva.
+    \item Si está diseñada para potenciar el comportamiento impulsivo y disminuir la capacidad analítica.
+    \item Si se da al usuario una falsa sensación de autonomía.
+\end{itemize}
+
+\subsection{El salto a la \gls{ia}}
+
+La evolución de la \gls{ia} nos ha traido sistemas muy complejos con aprendizajes profundos (encuentran patrones en un conjunto de datos) que sacan conclusiones estadísticas y son fáciles de engañar.
+
+Al ser entrenadas mediante conjuntos de datos, ¿Pueden sus diseñadores predecir su comportamiento?  Algunas arquitecturas de \gls{ia} funcionan como una caja negra en la que no sabemos el porqué de las decisiones de la máquina, aunque no todas las arquitecturas son tan opacas.
+
+Hay que tener en cuenta el hecho de que el sesgo cognitivo y los prejuicios de los desarrolladores de una \gls{ia} pueden influir de manera negativa en su toma de decisiones. 
+Estos sesgos pueden ser incoscientes o heredados(por el diseño o por el conjunto de datos que se usa para el entrenamiento) o prejuicios deliberados que nazcan de una determinada política o idea.
+
+Para evitar \gls{ia}s con este tipo de problema tenemos que buscar siempre que el algoritmo sea explicable.
+
+\epigraph{Cómo asegurar que el algoritmo es justo, cómo asegurar que el algoritmo es interpretable y explicable: todo eso está todavía bastante lejos.}{\textit{Nihar Shah}}
+
+Es de interés para las personas que desarrollan el algortimo, para abogades y jueces y para toda la ciudadanía entender la toma de decisiones de un algoritmo.
+
+Parte de evitar problemas de bias viene en forma de auditorías, para las cuales hay que tener aceso a:
+\begin{itemize}
+    \item Diseño: explicabilidad, trazabilidad y reproducibilidad.
+    \item Datos de entrenamiento o conjunto de datos para probar el sistema.
+    \item Código fuente
+\end{itemize}
+
+\subsection{Guía ética para una \gls{ia} confiable (\gls{ue})}
+
+\epigraph{To everyone who shapes technology today 
+
+We live in a world where technology is consuming society, ethics, and our core existence.
+
+It is time to take responsibility for the world we are creating. Time to put humans before business. Time to replace the empty rhetoric of “building a better world” with a commitment to real action. It is time to organize, and to hold each other accountable.
+}{\textit{The Copenhagen Letter, 2017}}
+
+La \gls{ue} define una \gls{ia} fiable como una que es lícita, ética y robusta.
+Una \gls{ia} fiable debe respetar cuatro principios éticos (a parte de respertar los derechos fundamentales):
+\begin{itemize}
+    \item Respeto de la autonomía humana.
+    \item Prevención del daño.
+    \item Equidad.
+    \item Explicabilidad.
+\end{itemize}
+
+Una \gls{ia} fiable debe cumplir también siete requisitos clave:
+\begin{itemize}
+    \item Acción y supervisión humanas.
+    \item Solidez técnica y seguridad.
+    \item Transparencia.
+    \item Diversidad, no discriminación y equidad.
+    \item Bienestar social y ambiental.
+    \item Rendición de cuentas.
+\end{itemize}
+
+Para aplicar estos principios hay que hacerlo desde el propio diseño del algoritmo: poniendo el respeto al ser humano por encima de cualquier otro tipo de interes como centro del diseño, respetar la autonomía individual y colectiva, no discriminar, revisar los sesgos, hacer un algoritmo explicable y transparente, respetar la privacidad y los \gls{ddaa} (licencia y opciones de protección de los \gls{ddaa}) y prever y tratar de evitar posibles usos fraudulentos y/o delictivos del algoritmo.

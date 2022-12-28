@@ -92,6 +92,11 @@
 \usepackage{tabularx}
 \usepackage{multirow}
 \usepackage{epigraph}
+\usepackage[
+    type={CC},
+    modifier={by-nc-sa},
+    version={4.0},
+]{doclicense}
 
 %----------------------------------------------------------
 % New commands

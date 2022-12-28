@@ -76,5 +76,22 @@
         "rsweave": {
             "parser": "latex"
         }
-    }
+    },
+    "cSpell.language": "es,es-ES",
+    "cSpell.words": [
+        "abogades",
+        "Analytica",
+        "bias",
+        "BOSCO",
+        "Cambrige",
+        "ciberacoso",
+        "Cookies",
+        "explicabilidad",
+        "Explicabilidad",
+        "Eyal",
+        "Hooked",
+        "monetización",
+        "RGPD",
+        "sintientes"
+    ]
 }

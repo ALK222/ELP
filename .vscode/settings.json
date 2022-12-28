@@ -85,6 +85,7 @@
         "BOSCO",
         "Cambrige",
         "ciberacoso",
+        "cookies",
         "Cookies",
         "explicabilidad",
         "Explicabilidad",
@@ -93,5 +94,8 @@
         "monetización",
         "RGPD",
         "sintientes"
-    ]
+    ],
+    "files.watcherExclude": {
+        "**/target": true
+    }
 }

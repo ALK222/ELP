@@ -92,6 +92,7 @@
 \usepackage{tabularx}
 \usepackage{multirow}
 \usepackage{epigraph}
+\usepackage{enumitem}
 \usepackage[
     type={CC},
     modifier={by-nc-sa},

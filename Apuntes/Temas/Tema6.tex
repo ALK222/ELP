@@ -1,0 +1,91 @@
+\chapterA{Cultura libre}
+
+\epigraph{Free software is a matter of liberty, not price. To understand the concept you should think of free as in free speech, not as in free beer}{Richard Stallman}
+
+\section{Software libre, de código abierto y gratuito}
+
+Software libre y software gratuito no son lo mismo. En ingles \textit{Free software} se refiere a software libre.
+
+Según \url{gnu.org} las libertades del software son las siguientes:
+
+\begin{itemize}
+    \item[\textbf{0.}] La libertad de ejecutar el programa para cualquier propósito.
+    \item[\textbf{1.}] La liberta de estudiar cómo funciona el programa , y cambiarlo para que haga lo que usted quiera. El acceso al código fuente es una condición necesaria para ello.
+    \item[\textbf{2.}] La libertad de redistribuir copias para ayudar a su prójimo.
+    \item[\textbf{3.}] La libertad de distribuir copias de sus versiones modificadas a terceros. Esto le permite ofrecer a toda la comunidad la oportunidad de beneficiarse de beneficiarse de las modificaciones. El acceso al código fuente es una condición necesaria para ello.
+\end{itemize}
+
+\textbf{Copyleft:} mantenimiento de las condiciones de la licencia en toda la cadena de distribución. No permite que legalmente se puedan cerrar creaciones puestas a disposición del público de forma libre.
+
+\textbf{Código abierto:} no se exige la distribución libre del código modificado. Permite que creaciones puestas a disposición del público libre se puedan cerrar.
+
+\section{Historia}
+
+En 1938 empieza el proyecto GNU (GNU is Not Unix) y en 1985 se funda la \gls{fsf}. El movimiento de software libre es un movimiento ético y político, ya que se fundamenta en que tener el control de la tecnología que usamos para que trabaje para nosotros y no para corporaciones o gobiernos que busquen restringirnos y monitorearnos.
+
+El concepto de software libre ya existía, a finales de los 60 había software gratuito y empezaba a aparecer software (licencias de uso) de pago y con restricciones de uso.
+
+A principios de los 70 AT\&T distribuyó copias gratuitas de Unix y conforme se fue extendiendo su uso, a principios de los 80 empezó a cobrar por ellas. En los 80, en paralelo al desarrollo comercial del software existían comunidades que compartían software libre online.
+
+El término Software de Código Abierto lo adoptó un grupo de dentro del movimiento de software libre en 1998 que querían desmarcarse de la posición más radical y poco comercial del término software libre.
+
+Raymond fundó la Open Source Initiative en 1998 junto a otras personas, Stallman y más miembros de la \gls{fsf} se opusieron al término y concepto dividiendo el movimiento.
+
+En recientes años han aparecido los llamados \textit{hacktivistas} como Aaron Swartz ``Internet's own boy' que luchó por la privacidad en internet hasta que le impusieron una multa astronómica y 35 años de prisión, terminando él por suicidarse.
+\section{Licencias}
+
+Algunas licencias populares son \gls{gpl} y \gls{bsd}.
+
+Las características principales de \gls{gpl} son:
+\begin{enumerate}
+    \item Copia y distribución del código fuente original.
+    \item Modificación.
+    \item Distribución de las modificaciones, siempre que se hagan bajo la misma licencia y sin cobrar por ellas.
+    \item Copia y distribución del ejecutable, siempre que se ponga a disposición el código fuente sin cobrar un extra por ello.
+\end{enumerate}
+
+Las características principales de \gls{bsd} son:
+\begin{itemize}
+    \item Uso, modificación, copia y redistribución sin restricción del código objeto o el fuente.
+    \item Aviso de copyright, negación de cualquier garantía o responsabilidad y prohibición de usar el nombre del autor con fines de promoción de obras derivadas sin su permiso.
+    \item No se otorga ninguna garantía sobre el producto ni se asume ninguna responsabilidad.
+    \item Si el software es modificado, se puede distribuir bajo otro tipo de licencia y no es necesario proveer al usuario final del código fuente.
+\end{itemize}
+
+
+Otro conjunto de licencias es Creative Commons. Estas licencias tienen categorías:
+\begin{itemize}
+    \item\textbf{BY:} atribución
+    \item\textbf{SA:} compartir igual (copyleft)
+    \item\textbf{ND:} sin derivados
+    \item\textbf{NC:} sin re-uso comercial
+\end{itemize}
+
+En una escala de libre a libre tendríamos:
+\begin{itemize}
+    \item[\textbf{Libre}]:
+    \begin{itemize}
+        \item CC0 (DP)
+        \item CC-by (\gls{bsd})
+        \item CC-by-sa (\gls{gpl}) (copyleft)
+    \end{itemize}
+    \item[\textbf{No libre}]
+        \begin{itemize}
+            \item CC by-nc-sa (copyleft)
+            \item CC by-nd
+            \item CC by-nc
+            \item Derechos de autor (CC by-nc-nd)
+        \end{itemize}
+\end{itemize}
+
+
+\section{Hardware libre}
+
+Aplicando los mismos conceptos del software libre al hardware llegamos a que los usuarios debería poder distribuir copias del hardware, pero en el hardware no hay algo como las ``copias''.
+
+Lo que si se puede liberar es el diseño del propio hardware, esto implica que el diseño debe cumplir las mismas libertades que el software libre. Entonces el hardware hecho con diseños libres se podrá considerar hardware libre.
+
+Una de las ventajas del diseño libre de hardware es que varias empresas pueden hacer el mismo producto y así no depender de un solo distribuidor. Tener los diagramas de circuito o código en HDL nos permite estudiar el diseño para buscar errores en el diseño o funcionalidades maliciosas.
+
+\gls{gpl} a partir de su versión 3 se diseña con el diseño libre de hardware en mente. Un circuito como topología no puede tener copyright (tampoco copyleft). Definiciones de circuitos escritas en HDL pueden tener copyright y por tanto copyleft, pero la topología que este código genera no.
+Un dibujo de un circuito puede tener copyright (no voy a repetir lo que esto implica), pero solo cubre el dibujo o la distribución, pero no la topología. Cualquiera podría copiar esa misma topología de forma que se vea distinta, o escribir un código HDL distinto que produzca el mismo circuito.

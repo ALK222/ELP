@@ -81,19 +81,23 @@
     "cSpell.words": [
         "abogades",
         "Analytica",
+        "Arms",
         "bias",
         "BOSCO",
         "Cambrige",
         "ciberacoso",
         "cookies",
         "Cookies",
+        "desencriptar",
         "explicabilidad",
         "Explicabilidad",
         "Eyal",
         "Hooked",
         "monetización",
+        "Regulation",
         "RGPD",
-        "sintientes"
+        "sintientes",
+        "Wassenaar"
     ],
     "files.watcherExclude": {
         "**/target": true

@@ -9,7 +9,7 @@ jobs:
       - name: compile.sh
         uses: dante-ev/latex-action@latest
         with:
-          entrypoint: ./release.sh
+          entrypoint: ./compile.sh
       - name: Upload PDF
         uses: actions/upload-artifact@v3
         with:

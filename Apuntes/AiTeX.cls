@@ -1,13 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Version 0.2 (30/01/2021)
 %
-% This class was created by:
-%  ________ __     __   ___
-% |   __   |  |   |  | /  /
-% |  |__|  |  |   |  |/  /  Alejandro Barrachina (A.L.K.)
-% |   __   |  |   |     <
-% |  |  |  |  |___|  |\  \  https://github.com/ALK222
-% |__|  |__|______|__| \__\
+% This class was created by: Alejandro Barrachina https://github.com/ALK222
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % License:
 % GPL-3.0 License 

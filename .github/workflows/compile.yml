@@ -14,5 +14,5 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: Apuntes-ELP.pdf
-          path: ./Apuntes/
+          path: ./Apuntes/Apuntes-ELP.pdf
           if-no-files-found: error # 'warn' or 'ignore' are also available, defaults to `warn`

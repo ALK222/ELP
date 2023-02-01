@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd ../../Apuntes
+cd Apuntes
 
 xelatex -file-line-error -interaction=nonstopmode Apuntes-ELP.tex
 

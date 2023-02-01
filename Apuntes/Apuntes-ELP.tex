@@ -14,7 +14,20 @@
 \pagestyle{empty}
 \justify
 \pagestyle{fancy}
-% \input{Temas/Introduccion.tex}
+
+\newpage
+
+\section*{Control de cambios} %
+\noindent\begin{tabularx}{\textwidth}{ |l|l|p{5cm}|X| }
+    \hline
+    \textbf{Versión} & \textbf{Fecha} & \textbf{Autores}     & \textbf{Descripción}                                                 \\
+    \hline
+    1.0              & 01/02/2023     & Alejandro Barrachina & Apuntes en formato libro basados en las transparencias de Sara Román \\
+    \hline
+\end{tabularx}
+
+\newpage
+
 \input{Temas/Tema1.tex}
 \input{Temas/Tema2.tex}
 \input{Temas/Tema3.tex}
@@ -26,11 +39,13 @@
 
 \printglossary[title={Glosario}]
 
+% DESCOMENTAR SI SE USAN IMÁGENES
 % \let\cleardoublepage\clearpage
 % \listoffigures
 % \addcontentsline{toc}{chapter}{Índice de figuras}
 % \let\cleardoublepage\clearpage
 
+% DESCOMENTAR SI SE USAN TABLAS
 % \listoftables
 % \addcontentsline{toc}{chapter}{Índice de cuadros}
 
